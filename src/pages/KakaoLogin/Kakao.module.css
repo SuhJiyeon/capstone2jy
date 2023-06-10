@@ -1,0 +1,32 @@
+.kakaoButton {
+
+  width: 30%;
+  transform: translate(30%, 0);
+  height: 48px;
+  border: none;
+  font-weight: bold;
+  border-radius: 60px;
+  background-color: #ffe600;
+  color: rgb(95, 46, 0);
+  margin-bottom: 20px;
+  cursor: pointer;
+
+  font-size: 20px; /* Adjust the font size as needed */
+  padding: 10px 20px; /* Adjust the padding as needed */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+.buttonContainer {
+  /* Optional: If you want to center-align the button horizontally */
+  display: flex;
+  justify-content: center;
+}
+
+.kakaoButton:disabled {
+  background-color: #ffd95c;
+  color: rgb(126, 82, 0);
+}
